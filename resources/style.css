@@ -1,0 +1,178 @@
+/* universal style */
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+/* navigation style */
+
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.logo img {
+  padding: 10px;
+  height: 50px;
+}
+
+nav span {
+  display: flex;
+  display: inline-block;
+  text-decoration: underline;
+  font-size: 20px;
+  padding: 25px 15px;
+  flex-grow: 1;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 2;
+}
+
+/* content area style */
+
+.content {
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+}
+
+.hero-image img {
+  height: 700px;
+}
+
+.hero-title {
+  padding: 5px auto;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 1200px;
+}
+
+.hero-title h2 {
+  font-size: 40px;
+}
+
+.hero-title h4 {
+  font-size: 20px;
+}
+
+/* middle content style */
+
+.middle-content {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-group {
+  display: flex;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.tea-image {
+  width: 300px;
+  height: 200px;
+}
+
+.mid-title h2 {
+  font-size: 40px;
+}
+
+.mid-title h4 {
+  font-size: 20px;
+}
+
+/* Locations content secion */
+
+
+.img-container a {
+  text-decoration: none;
+}
+
+
+.locations-content {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  margin: 20px auto;
+  background-image: url("../resources/images/img-locations-background.jpg")
+}
+
+.locations-content {
+  display: flex;
+}
+
+.locations-content h2 {
+  font-size: 30px;
+  margin: 70px auto 15px auto;
+
+}
+
+.locations-content h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.locations-content p {
+  padding: 10px;
+}
+
+.location-group {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.location {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  opacity: 1;
+  margin: 0 20px;
+  flex-direction: row;
+}
+
+/* footer content style */
+
+.info {
+  height: 200px;
+}
+
+.info h2 {
+  font-size: 30px
+}
+
+.copy {
+  text-align: left;
+  margin: 0 20px;
+}
